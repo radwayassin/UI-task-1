@@ -506,4 +506,132 @@ body {
   font-size: 1.2em;
   margin: 0.5em 0;
 }
+
+.explore h1 {
+  color: #000;
+  font-size: 2em;
+}
+
+.explore .data, .explore .voice {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.explore .data h4, .explore .voice h4 {
+  background-color: #134b55;
+  color: #fff;
+  text-align: center;
+  width: 5em;
+  border-radius: 10px;
+  padding: 1em 2em;
+}
+
+.explore .data-sec, .explore .voice-sec {
+  background-color: #ccc;
+  border-radius: 5%;
+  padding: 4em 0 2em 0;
+}
+
+.explore .data-sec .data-row, .explore .voice-sec .data-row, .explore .voice-sec .voice-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.explore .data-sec .data-row .data-col, .explore .voice-sec .data-row .data-col, .explore .voice-sec .voice-row .data-col, .explore .voice-sec .voice-row .voice-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: 33.3333%;
+}
+
+.explore .data-sec .data-row .data-col .content, .explore .voice-sec .data-row .data-col .content, .explore .voice-sec .voice-row .data-col .content, .explore .voice-sec .voice-row .voice-col .content {
+  background-color: #fff;
+  border: 3px solid #134b55;
+  position: relative;
+  width: 11em;
+  height: 3em;
+  margin-bottom: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.explore .data-sec .data-row .data-col .content .type, .explore .voice-sec .data-row .data-col .content .type, .explore .voice-sec .voice-row .data-col .content .type, .explore .voice-sec .voice-row .voice-col .content .type {
+  background-color: #fff;
+  font-size: 0.8em;
+  border: 1px solid #049c9a;
+  border-radius: 20px;
+  padding: 0.3em 01em;
+  position: absolute;
+  bottom: 90%;
+  right: 86%;
+  z-index: 1;
+}
+
+.explore .data-sec .data-row .data-col .content .price, .explore .voice-sec .data-row .data-col .content .price, .explore .voice-sec .voice-row .data-col .content .price, .explore .voice-sec .voice-row .voice-col .content .price {
+  background-color: #134b55;
+  color: #fff;
+  font-size: 0.8em;
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  padding: 1em;
+  position: absolute;
+  bottom: -9%;
+  left: -24%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.explore .voice h4 {
+  background-color: #049c9a;
+}
+
+.explore .voice-sec .voice-row .voice-col {
+  width: 50%;
+}
+
+.explore .voice-sec .voice-row .voice-col .content {
+  border-color: #049c9a;
+}
+
+.explore .voice-sec .voice-row .voice-col .content .price {
+  background-color: #049c9a;
+}
 /*# sourceMappingURL=main.css.map */

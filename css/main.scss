@@ -396,3 +396,101 @@ body {
     }
   }
 }
+// Explore Section
+.explore {
+  h1 {
+    color: #000;
+    font-size: 2em;
+  }
+  .data {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    h4 {
+      background-color: #134b55;
+      color: #fff;
+      text-align: center;
+      width: 5em;
+      border-radius: 10px;
+      padding: 1em 2em;
+    }
+  }
+  .data-sec {
+    background-color: #ccc;
+    border-radius: 5%;
+    padding: 4em 0 2em 0;
+    .data-row {
+      display: flex;
+      flex-direction: row;
+      .data-col {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 33.3333%;
+        .content {
+          background-color: #fff;
+          border: 3px solid #134b55;
+          position: relative;
+          width: 11em;
+          height: 3em;
+          margin-bottom: 2em;
+          display: flex;
+          text-align: center;
+          justify-content: center;
+          align-items: center;
+          .type {
+            background-color: #fff;
+            font-size: 0.8em;
+            border: 1px solid #049c9a;
+            border-radius: 20px;
+            padding: 0.3em 01em;
+            position: absolute;
+            bottom: 90%;
+            right: 86%;
+            z-index: 1;
+          }
+          .price {
+            background-color: #134b55;
+            color: #fff;
+            font-size: 0.8em;
+            width: 3em;
+            height: 3em;
+            border-radius: 50%;
+            padding: 1em;
+            position: absolute;
+            bottom: -9%;
+            left: -24%;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+          }
+        }
+      }
+    }
+  }
+  .voice {
+    @extend .data;
+    h4 {
+      background-color: #049c9a;
+    }
+  }
+  .voice-sec {
+    @extend .data-sec;
+    .voice-row {
+      @extend .data-row;
+      .voice-col {
+        @extend .data-col;
+        width: 50%;
+        .content {
+          border-color: #049c9a;
+          .price {
+            background-color: #049c9a;
+          }
+        }
+      }
+    }
+  }
+}
