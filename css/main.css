@@ -754,4 +754,82 @@ body {
 .lastest-offers .platforms-list .twitter {
   color: #1da1f2;
 }
+
+footer {
+  background-color: #333;
+  padding: 2em 0;
+}
+
+footer .footer-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+footer .footer-row .footer-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 33.333%;
+}
+
+footer .footer-row .footer-col h4 {
+  color: #ccc;
+  margin-bottom: 0;
+}
+
+footer .footer-row .footer-col hr {
+  width: 80%;
+  border-color: rgba(119, 119, 119, 0.514);
+  -webkit-margin-start: 0em;
+          margin-inline-start: 0em;
+}
+
+footer .footer-row .footer-col .footer-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer .footer-row .footer-col .footer-list li {
+  color: #ccc;
+  cursor: pointer;
+  margin: 0.5em 0;
+}
+
+footer .footer-row .footer-col .follow-list {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  list-style: none;
+  padding: 0;
+}
+
+footer .footer-row .footer-col .follow-list li {
+  margin: 0.5em;
+}
+
+footer .footer-row .footer-col .follow-list li i {
+  color: #ccc;
+}
+
+@media (max-width: 768px) {
+  footer .footer-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .footer-row .footer-col {
+    width: 100%;
+  }
+}
 /*# sourceMappingURL=main.css.map */
