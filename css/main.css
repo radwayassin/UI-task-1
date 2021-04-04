@@ -507,6 +507,10 @@ body {
   margin: 0.5em 0;
 }
 
+.explore {
+  padding-bottom: 4em;
+}
+
 .explore h1 {
   color: #000;
   font-size: 2em;
@@ -589,6 +593,7 @@ body {
   font-size: 0.8em;
   border: 1px solid #049c9a;
   border-radius: 20px;
+  width: 3.3em;
   padding: 0.3em 01em;
   position: absolute;
   bottom: 90%;
@@ -605,7 +610,7 @@ body {
   border-radius: 50%;
   padding: 1em;
   position: absolute;
-  bottom: -9%;
+  bottom: -15%;
   left: -24%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -617,6 +622,18 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media (max-width: 768px) {
+  .explore .data-sec .data-row, .explore .voice-sec .data-row, .explore .voice-sec .voice-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .explore .data-sec .data-row .data-col, .explore .voice-sec .data-row .data-col, .explore .voice-sec .voice-row .data-col, .explore .voice-sec .voice-row .voice-col {
+    width: 100%;
+  }
 }
 
 .explore .voice h4 {
@@ -633,5 +650,48 @@ body {
 
 .explore .voice-sec .voice-row .voice-col .content .price {
   background-color: #049c9a;
+}
+
+@media (max-width: 768px) {
+  .explore .voice-sec .voice-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .explore .voice-sec .voice-row .voice-col {
+    width: 100%;
+  }
+}
+
+.terms-condition {
+  background-image: url("../images/categories.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 50vh;
+  position: relative;
+  padding: 0;
+}
+
+.terms-condition h1 {
+  color: #fff;
+  z-index: 1;
+  font-size: 2em;
+}
+
+.terms-condition .condition-list {
+  list-style: none;
+}
+
+.terms-condition .condition-list li h4 {
+  z-index: 1;
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: 400;
+}
+
+.terms-condition .condition-list li .dot {
+  color: #049c9a;
+  margin-right: 1em;
 }
 /*# sourceMappingURL=main.css.map */
