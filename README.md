@@ -14,3 +14,4 @@ the fifth section contains our terms and conditions,
 the sixth section contains our platforms to get our offers,
 
 and the final section contains a footer with our other pages and social media.
+# https://radwayassin.github.io/UI-task-1/
